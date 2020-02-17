@@ -12,7 +12,7 @@ APIs:
 
 Database contains one table:
 
-SERVICE
-String serviceName(Primary key)
-String serviceEnvironment(Primary key)
+SERVICE->
+String serviceName(Primary key),
+String serviceEnvironment(Primary key),
 String healthURL
