@@ -1,13 +1,13 @@
-package com.grofers.healthcheck;
+package com.grofers.healthchecker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HealthcheckApplication {
+public class HealthcheckerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HealthcheckApplication.class, args);
+		SpringApplication.run(HealthcheckerApplication.class, args);
 	}
 
 }
