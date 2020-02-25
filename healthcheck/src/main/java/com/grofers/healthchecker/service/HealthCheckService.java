@@ -60,6 +60,8 @@ public class HealthCheckService {
         try{
             URL url = new URL(healthEndpoint);
             HttpURLConnection httpConnection = (HttpURLConnection)url.openConnection();
+            httpConnection.setConnectTimeout(3000);
+            httpConnection.setReadTimeout(3000);
             return httpConnection.getResponseCode();
         }
         catch(Exception e){
